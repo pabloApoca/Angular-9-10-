@@ -6,10 +6,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
-  {path:'', component: HomeComponent},
-  {path:'products', component: ProductsComponent},
+  {path: '', component: HomeComponent},
+  {path: 'products', component: ProductsComponent },
   {path:'product/:id', component: DetailsProductComponent},
-  {path: '**', component: NotFoundComponent},
+  {path: '**', component : NotFoundComponent}
 ];
 
 @NgModule({

@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsComponent implements OnInit {
 
-public users =[
-  {name: 'Pablo', city:'Argentina'},
-  {name: 'Martin', city: ''},
-  {name: 'Lopez', city:'Uraguey'}
-]
+  public users = [
+    {name: 'Pablo', city: "Buenos Aires"},
+    {name: 'Martin' , city: ""},
+    {name: 'Lopez' , city: "Buenos modales"}
+  ];
 
   constructor() { }
 
