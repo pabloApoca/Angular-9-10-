@@ -1,9 +1,9 @@
 <div>
-    <h1>Listado de Productos</h1>
+    <h1>Details</h1>
     <br>
-    <div class="card" *ngFor="let product of products">
+    <div class="card mt-3 p-3">
         <h2>
-            <a [routerLink]="['/product', product.id]">{{product.name}}</a>
+            Name: {{product.name}}
         </h2>
 
         <div>Category: {{product.category}}</div>
@@ -11,5 +11,8 @@
         <div>Price: {{product.price}}</div>
 
     </div>
+
+
+    <button class="btn btn-primary mt-3" (click)="onGoBack()"> Go Back</button>
 
 </div>
